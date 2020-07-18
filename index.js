@@ -58,4 +58,5 @@ bot.on("ready", async () => {
   )})
 
 
-bot.login("Discord Token");
+
+bot.login(process.env.TOKEN);
